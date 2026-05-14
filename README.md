@@ -8,19 +8,22 @@
 # Escenario elegido
 Escenario B - Análisis de Ventas de una Pequeña Empresa
 
-# Descripción del proyecto
-Este proyecto realiza un análisis simple de ventas utilizando Python y GitHub.
+# Descripción del dataset
+El dataset utilizado se encuentra en:
+/datos/ventas.csv
+Contiene informacion simple de productos y cantidades de ventas.
 
-El análisis incluye:
-- cálculo de ventas totales
-- identificación del producto más vendido
-- gráfico de ventas
-
-# Estructura del repositorio
-
-- /datos → datasets utilizados
+# Estructura del proyecto
+- /datos → datasets de ventas
 - /scripts → scripts Python
-- /resultados → gráficos y resultados
+- /resultados → resultados generados
+
+# Funcionalidades
+El analisis permite:
+
+-calcular ventas totales
+-indetificar el producto mas vendido
+-mostrar resultados del analisis
 
 # Herramientas utilizadas
 - Jira
@@ -28,5 +31,8 @@ El análisis incluye:
 - Python
 - Google Colab
 
-# Ejecución
-Ejecutar el script Python ubicado en la carpeta /scripts.
+# Intrucciones para ejecutar
+1. abrir Google Colab
+2. clonar el repositorio
+3. ejecutar el script ubicado en /scripts
+4. revisar resultados en /resultados
